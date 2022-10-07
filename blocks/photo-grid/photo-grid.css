@@ -1,12 +1,3 @@
-/* .photo-grid {
-  margin: 92px 0 0 0;
-  box-sizing: border-box;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 284px);
-  gap: 16px;
-} */
-
 .photo-grid {
   max-width: 90%;
   margin: 92px auto 0 auto;
