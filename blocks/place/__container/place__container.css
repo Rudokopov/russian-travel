@@ -1,0 +1,11 @@
+.place__container {
+  width: 90%;
+  margin: 48px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

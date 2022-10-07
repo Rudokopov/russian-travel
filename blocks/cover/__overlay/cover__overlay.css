@@ -1,0 +1,19 @@
+.overlay {
+  position: absolute;
+  width: 1184px;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: .3;
+  z-index: 0;
+  transition: opacity 2s ease;
+}
+
+.overlay:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .overlay {
+    width: 100%;
+  }
+}
