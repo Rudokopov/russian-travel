@@ -1,15 +1,7 @@
 .header__links {
-  margin: 46px 48px 0 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .header__links {
-    margin: 46px 24px 0 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header__links {
-    margin: 30px 15px 0 0;
-  }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
 }
