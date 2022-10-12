@@ -1,11 +1,4 @@
 .place__image {
-  margin: 48px 0 0 0;
   width: 100%;
   grid-area: place__image;
-}
-
-@media screen and (max-width: 320px) {
-  .place__image {
-    margin-top: 32px;
-  }
 }

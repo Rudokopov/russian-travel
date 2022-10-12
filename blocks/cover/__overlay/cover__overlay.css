@@ -1,20 +1,62 @@
+/* Я сначала сделал затемнение фона через :hover напрямую применив его к cover__overlay */
+/* Потом у нас вышел лайвкодинг в котором наставник рекомендовал делать эффекты через ::after */
+/* Я не совсем понял ваш комментарий что нельзя что бы элемент с текстом внутри имел абсолютное позиционирование */
+/* В то же время он и не имеет, имеет уже элемент с псевдоклассом, который находится позади элемента с текстом */
+
 .cover__overlay {
-  display: block;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  background-image: url("../../../images/__background.png");
+  background-size: 100% 100%;
   min-height: 740px;
-  z-index: 2;
-  grid-row: 1/3;
-  grid-column: 1;
+  color: #fff;
+  overflow: hidden;
+  z-index: 1;
 }
 
-@media screen and (max-width: 1279px) {
+.cover__overlay::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: black;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+  transition: opacity 2s ease;
+}
+
+.cover__overlay:hover::after {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
   .cover__overlay {
-    min-height: 58vh;
+    min-height: 640px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .cover__overlay {
-    min-height: 60vh;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover__overlay {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cover__overlay {
+    min-height: 40vh;
   }
 }
 
