@@ -1,4 +1,4 @@
-# Путешествие по России
+# [Проект "Путешествие по России"](https://rudokopov.github.io/russian-travel/)
 
 https://rudokopov.github.io/russian-travel/
 
