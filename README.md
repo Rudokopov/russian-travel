@@ -1,7 +1,5 @@
 # [Проект "Путешествие по России"](https://rudokopov.github.io/russian-travel/)
 
-https://rudokopov.github.io/russian-travel/
-
 Вторая проектная работа направленная на понимание адаптивной вёрстки.
 
 **Какие технологии используются:**
