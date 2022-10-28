@@ -4,8 +4,13 @@
 
 **Какие технологии используются:**
 
-_Язык гиппертекстовой разметки 'HTML'_
-_Язык стилей 'CSS'_
+- Flexbox
+- Grid Layout
+- Positioning Elements
+- BEM Methodology
+- File Structure and File Paths (Nested BEM)
+- Git
+- Figma
 
 ---
 
